@@ -193,3 +193,28 @@ main section{
 .downloa-cv{
     margin-top: 50px;
 }
+
+
+/* footer styles */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    
+
+}
+footer .foorer-colum{
+    width: 50%;
+}
+footer input[type="text"] ,input[type="email"] ,footer textarea{
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
